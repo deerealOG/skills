@@ -335,6 +335,9 @@ Animations
 .show {
   display: flex;
 }
+.down {
+  display: none;
+}
 #title {
   font-family: "Poppins";
   font-style: normal;
@@ -402,14 +405,14 @@ Animations
   align-items: center;
   padding-bottom: 80px;
   gap: 50px;
-  margin-left: 20px;
 
   position: relative;
   width: fit-content;
   height: fit-content;
-  left: 2vw;
+  left: 8vw;
   top: 140px;
 }
+
 #category .title {
   display: flex;
   flex-direction: row;
