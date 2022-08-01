@@ -206,10 +206,7 @@ Animations
   justify-content: center;
   align-items: center;
 }
-#avatar img {
-  height: auto;
-  width: 60px;
-}
+
 #username {
   display: flex;
   align-items: center;
@@ -227,7 +224,7 @@ Animations
   cursor: pointer;
 }
 #logo img {
-  height: 50px;
+  height: 3.375rem;
 }
 
 #desktop {
@@ -262,7 +259,7 @@ Animations
 }
 #avatar img {
   height: auto;
-  width: 40px;
+  width: 50px;
 }
 #username {
   padding: 0;
@@ -277,13 +274,9 @@ Animations
   line-height: 150%;
   color: #ffffff;
 }
-#logo {
-}
+
 #logo:hover {
   cursor: pointer;
-}
-#logo img {
-  height: 50px;
 }
 
 #hamburger {
@@ -522,9 +515,6 @@ aside {
     height: 100%;
   }
 
-  #logo img {
-    height: 50px;
-  }
   #userdetails {
     right: 12%;
   }
