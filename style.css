@@ -70,7 +70,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 80px;
+  height: 60px;
   padding-left: 2%;
   transition: all 0.7s ease-in;
   z-index: 40;
@@ -95,10 +95,10 @@ body {
 
 .hamburger div {
   position: relative;
-  top: -6px;
+  top: -0.8em;
   right: 5%;
-  width: 2.6em;
-  height: 6px;
+  width: 2em;
+  height: 4px;
   border-radius: 3px;
   background: #f37821;
   margin-top: 8px;
@@ -158,7 +158,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
@@ -179,7 +179,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
@@ -224,7 +224,7 @@ Animations
   cursor: pointer;
 }
 #logo img {
-  height: 3.375rem;
+  height: 40px;
 }
 
 #desktop {
@@ -259,7 +259,7 @@ Animations
 }
 #avatar img {
   height: auto;
-  width: 50px;
+  width: 40px;
 }
 #username {
   padding: 0;
@@ -287,13 +287,20 @@ Animations
 }
 .down {
   color: white;
+  transition: all .5s ease;
+}
+.dropdown, .rotate {
+  transition: all .5s ease;
+}
+.rotate {
+  transform: rotate(180deg);
 }
 .caret {
   display: none;
 }
 #dropDownCont {
   position: fixed;
-  top: 80px;
+  top: 60px;
   right: 0px;
   z-index: 100;
   background: #262262;
@@ -341,7 +348,7 @@ Animations
   width: 100%;
   height: 40px;
   left: 0px;
-  top: 133px;
+  top: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -510,10 +517,7 @@ aside {
     font-size: 16px;
     line-height: 140%;
   }
-  #avatar img {
-    max-width: auto;
-    height: 100%;
-  }
+  
 
   #userdetails {
     right: 12%;
@@ -583,7 +587,9 @@ aside {
 
   #navbar {
     z-index: 10;
-    padding-left: 20px;
+  }
+  #logo img{
+    height: 45px;
   }
 
   #userdetails {
@@ -599,9 +605,7 @@ aside {
   #userdetails .notification {
     display: flex;
   }
-  #hamburger {
-    display: none;
-  }
+ 
   .down {
     color: white;
     display: block;
@@ -626,8 +630,8 @@ aside {
     font-size: 1rem;
     line-height: 150%;
   }
-  .menu-wrap {
-    display: none;
+  #title {
+    top: 120px;
   }
 }
 @media all and (min-width: 1200px) {
